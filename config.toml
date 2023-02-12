@@ -1,0 +1,18 @@
+directoryPaths = ["/Users/volkanalkilic/Downloads", "/Users/volkanalkilic/RiderProjects/MqttFileWatcher/bin/Debug/net7.0"]
+includeSubdirectories = false
+fileTypes = "toml,log"               #Use *.* to all files
+createdEventEnabled = true
+changedEventEnabled = true
+deletedEventEnabled = true
+
+
+brokerHostname = "127.0.0.1"
+brokerPort = 1883
+brokerUsername = "username"
+brokerPassword = "password"
+topic = "files/upload"
+sslEnabled = false
+sslCertificatePath = "client.pfx"
+
+compress = false
+
