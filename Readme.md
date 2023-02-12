@@ -1,11 +1,12 @@
 # MqttFileUploader
 
-MqttFileUploader is a .NET Core command-line application that watches a local directory for changes and uploads new or modified files to an MQTT broker.
+Mqtt File Uploader is a Cross-platform .NET Core command-line application that watches local directories for changes and uploads new or modified files to an MQTT broker.
 
 ## Features
 
-* Watch a local directory for new or modified files
+* Watch multiple local directory for new or modified files
 * Upload files to an MQTT broker
+* Support MQTT versions **5.0, 3.1.****1, and 3.1**
 * Compress files with GZip before uploading
 * Support for disabling `Created`, `Changed`, and `Deleted` events
 * Configuration settings can be specified in a TOML file
@@ -31,7 +32,7 @@ MqttFileUploader is a command-line application. To start watching a directory fo
 
 The `config.toml` file contains the following options:
 
-* `directoryPath`: The local directory to watch for changes
+* `directoryPaths`: The local directories to watch for changes
 * `brokerHostname`: The hostname of the MQTT broker to upload files to
 * `brokerPort`: The port number of the MQTT broker to upload files to
 * `brokerUsername`: The username to use to connect to the MQTT broker (optional)

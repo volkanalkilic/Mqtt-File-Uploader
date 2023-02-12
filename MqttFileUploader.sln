@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqttFileWatcher", "MqttFileWatcher.csproj", "{A09313B1-F8A4-4D7A-BECB-E773C5E09833}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqttFileUploader", "MqttFileUploader.csproj", "{A09313B1-F8A4-4D7A-BECB-E773C5E09833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-directoryPaths = ["/Users/volkanalkilic/Downloads", "/Users/volkanalkilic/RiderProjects/MqttFileWatcher/bin/Debug/net7.0"]
+directoryPaths = ["/Users/volkanalkilic/Downloads", "/Users/volkanalkilic/Downloads"]
 includeSubdirectories = false
 fileTypes = "toml,log"               #Use *.* to all files
 createdEventEnabled = true
@@ -11,6 +11,7 @@ brokerPort = 1883
 brokerUsername = "username"
 brokerPassword = "password"
 topic = "files/upload"
+protocolVersion = 3                 # 3 = V310, 4 = V311, 5 = V500 
 sslEnabled = false
 sslCertificatePath = "client.pfx"
 
